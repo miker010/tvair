@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276D889A2C03D8F0004937AD /* tvairApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88992C03D8F0004937AD /* tvairApp.swift */; };
+		276D889C2C03D8F0004937AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D889B2C03D8F0004937AD /* ContentView.swift */; };
+		276D889E2C03D8F1004937AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276D889D2C03D8F1004937AD /* Assets.xcassets */; };
+		276D88A12C03D8F1004937AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276D88A02C03D8F1004937AD /* Preview Assets.xcassets */; };
+		276D88A82C03D914004937AD /* MeteoBlueAirQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88A72C03D914004937AD /* MeteoBlueAirQuality.swift */; };
+		276D88AA2C03D954004937AD /* MeteoBlueAirQualityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88A92C03D954004937AD /* MeteoBlueAirQualityClient.swift */; };
+		276D88AC2C03DDF2004937AD /* MeteoBlueAirQualityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88AB2C03DDF2004937AD /* MeteoBlueAirQualityViewModel.swift */; };
+		276D88AE2C03DE62004937AD /* MeteoBlueAirQualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88AD2C03DE62004937AD /* MeteoBlueAirQualityView.swift */; };
+		276D88B82C046A9F004937AD /* MeteoBlueLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88B72C046A9F004937AD /* MeteoBlueLocation.swift */; };
+		276D88BA2C046B11004937AD /* MeteoBlueLocationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88B92C046B11004937AD /* MeteoBlueLocationClient.swift */; };
+		276D88BD2C04F519004937AD /* MeteoBlueApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88BC2C04F519004937AD /* MeteoBlueApiConfiguration.swift */; };
+		276D88BF2C04F76C004937AD /* TvOsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88BE2C04F76C004937AD /* TvOsButton.swift */; };
+		276D88C12C04F77B004937AD /* ClickableTvOsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88C02C04F77B004937AD /* ClickableTvOsButtonView.swift */; };
+		276D88C32C04F78B004937AD /* ClickableTvOsButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88C22C04F78B004937AD /* ClickableTvOsButtonDelegate.swift */; };
+		276D88C52C04F798004937AD /* ClickableTvOsControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88C42C04F798004937AD /* ClickableTvOsControl.swift */; };
+		276D88C72C04F927004937AD /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88C62C04F927004937AD /* ColorHelper.swift */; };
+		276D88C92C04F99B004937AD /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D88C82C04F99B004937AD /* DateHelper.swift */; };
+		77C6A9BEBBFF131A3C4EC7E6 /* Pods_tvair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD88732B5002CA057F99A78 /* Pods_tvair.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		276D88962C03D8F0004937AD /* tvair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276D88992C03D8F0004937AD /* tvairApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvairApp.swift; sourceTree = "<group>"; };
+		276D889B2C03D8F0004937AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		276D889D2C03D8F1004937AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		276D88A02C03D8F1004937AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		276D88A72C03D914004937AD /* MeteoBlueAirQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoBlueAirQuality.swift; sourceTree = "<group>"; };
+		276D88A92C03D954004937AD /* MeteoBlueAirQualityClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoBlueAirQualityClient.swift; sourceTree = "<group>"; };
+		276D88AB2C03DDF2004937AD /* MeteoBlueAirQualityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoBlueAirQualityViewModel.swift; sourceTree = "<group>"; };
+		276D88AD2C03DE62004937AD /* MeteoBlueAirQualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoBlueAirQualityView.swift; sourceTree = "<group>"; };
+		276D88B72C046A9F004937AD /* MeteoBlueLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoBlueLocation.swift; sourceTree = "<group>"; };
+		276D88B92C046B11004937AD /* MeteoBlueLocationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoBlueLocationClient.swift; sourceTree = "<group>"; };
+		276D88BC2C04F519004937AD /* MeteoBlueApiConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoBlueApiConfiguration.swift; sourceTree = "<group>"; };
+		276D88BE2C04F76C004937AD /* TvOsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvOsButton.swift; sourceTree = "<group>"; };
+		276D88C02C04F77B004937AD /* ClickableTvOsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableTvOsButtonView.swift; sourceTree = "<group>"; };
+		276D88C22C04F78B004937AD /* ClickableTvOsButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableTvOsButtonDelegate.swift; sourceTree = "<group>"; };
+		276D88C42C04F798004937AD /* ClickableTvOsControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableTvOsControl.swift; sourceTree = "<group>"; };
+		276D88C62C04F927004937AD /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		276D88C82C04F99B004937AD /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		AFD88732B5002CA057F99A78 /* Pods_tvair.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tvair.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F09D3F8415BFF5F082EE64 /* Pods-tvair.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvair.release.xcconfig"; path = "Target Support Files/Pods-tvair/Pods-tvair.release.xcconfig"; sourceTree = "<group>"; };
+		C0D094C6848F4692054FAF3F /* Pods-tvair.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvair.debug.xcconfig"; path = "Target Support Files/Pods-tvair/Pods-tvair.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276D88932C03D8F0004937AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C6A9BEBBFF131A3C4EC7E6 /* Pods_tvair.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276D888D2C03D8F0004937AD = {
+			isa = PBXGroup;
+			children = (
+				276D88982C03D8F0004937AD /* tvair */,
+				276D88972C03D8F0004937AD /* Products */,
+				5EABE4E0EE1036E986691178 /* Pods */,
+				908CAAE565F53533FDB083A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		276D88972C03D8F0004937AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276D88962C03D8F0004937AD /* tvair.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276D88982C03D8F0004937AD /* tvair */ = {
+			isa = PBXGroup;
+			children = (
+				276D88B22C0468EE004937AD /* Data */,
+				276D88B32C0468F8004937AD /* UI */,
+				276D88992C03D8F0004937AD /* tvairApp.swift */,
+				276D889B2C03D8F0004937AD /* ContentView.swift */,
+				276D889D2C03D8F1004937AD /* Assets.xcassets */,
+				276D889F2C03D8F1004937AD /* Preview Content */,
+			);
+			path = tvair;
+			sourceTree = "<group>";
+		};
+		276D889F2C03D8F1004937AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				276D88A02C03D8F1004937AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		276D88B12C0468D2004937AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				276D88A72C03D914004937AD /* MeteoBlueAirQuality.swift */,
+				276D88B72C046A9F004937AD /* MeteoBlueLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		276D88B22C0468EE004937AD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				276D88B62C04690E004937AD /* Clients */,
+				276D88B12C0468D2004937AD /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		276D88B32C0468F8004937AD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				276D88BB2C04F3F9004937AD /* Reusables */,
+				276D88B52C046906004937AD /* ViewModels */,
+				276D88B42C046902004937AD /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		276D88B42C046902004937AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				276D88AD2C03DE62004937AD /* MeteoBlueAirQualityView.swift */,
+				276D88C62C04F927004937AD /* ColorHelper.swift */,
+				276D88C82C04F99B004937AD /* DateHelper.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		276D88B52C046906004937AD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				276D88AB2C03DDF2004937AD /* MeteoBlueAirQualityViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		276D88B62C04690E004937AD /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				276D88A92C03D954004937AD /* MeteoBlueAirQualityClient.swift */,
+				276D88B92C046B11004937AD /* MeteoBlueLocationClient.swift */,
+				276D88BC2C04F519004937AD /* MeteoBlueApiConfiguration.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		276D88BB2C04F3F9004937AD /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				276D88BE2C04F76C004937AD /* TvOsButton.swift */,
+				276D88C02C04F77B004937AD /* ClickableTvOsButtonView.swift */,
+				276D88C22C04F78B004937AD /* ClickableTvOsButtonDelegate.swift */,
+				276D88C42C04F798004937AD /* ClickableTvOsControl.swift */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		5EABE4E0EE1036E986691178 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0D094C6848F4692054FAF3F /* Pods-tvair.debug.xcconfig */,
+				B5F09D3F8415BFF5F082EE64 /* Pods-tvair.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		908CAAE565F53533FDB083A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFD88732B5002CA057F99A78 /* Pods_tvair.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276D88952C03D8F0004937AD /* tvair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276D88A42C03D8F1004937AD /* Build configuration list for PBXNativeTarget "tvair" */;
+			buildPhases = (
+				79788D6ADD8B4C94650165C2 /* [CP] Check Pods Manifest.lock */,
+				276D88922C03D8F0004937AD /* Sources */,
+				276D88932C03D8F0004937AD /* Frameworks */,
+				276D88942C03D8F0004937AD /* Resources */,
+				806C2CC48DF33F2DBE71E51F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvair;
+			productName = tvair;
+			productReference = 276D88962C03D8F0004937AD /* tvair.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276D888E2C03D8F0004937AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					276D88952C03D8F0004937AD = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 276D88912C03D8F0004937AD /* Build configuration list for PBXProject "tvair" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 276D888D2C03D8F0004937AD;
+			productRefGroup = 276D88972C03D8F0004937AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276D88952C03D8F0004937AD /* tvair */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276D88942C03D8F0004937AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276D88A12C03D8F1004937AD /* Preview Assets.xcassets in Resources */,
+				276D889E2C03D8F1004937AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79788D6ADD8B4C94650165C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tvair-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		806C2CC48DF33F2DBE71E51F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tvair/Pods-tvair-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tvair/Pods-tvair-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tvair/Pods-tvair-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276D88922C03D8F0004937AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276D88C92C04F99B004937AD /* DateHelper.swift in Sources */,
+				276D88AE2C03DE62004937AD /* MeteoBlueAirQualityView.swift in Sources */,
+				276D88C52C04F798004937AD /* ClickableTvOsControl.swift in Sources */,
+				276D88BD2C04F519004937AD /* MeteoBlueApiConfiguration.swift in Sources */,
+				276D88AA2C03D954004937AD /* MeteoBlueAirQualityClient.swift in Sources */,
+				276D88C32C04F78B004937AD /* ClickableTvOsButtonDelegate.swift in Sources */,
+				276D88C72C04F927004937AD /* ColorHelper.swift in Sources */,
+				276D88BA2C046B11004937AD /* MeteoBlueLocationClient.swift in Sources */,
+				276D889C2C03D8F0004937AD /* ContentView.swift in Sources */,
+				276D88BF2C04F76C004937AD /* TvOsButton.swift in Sources */,
+				276D889A2C03D8F0004937AD /* tvairApp.swift in Sources */,
+				276D88A82C03D914004937AD /* MeteoBlueAirQuality.swift in Sources */,
+				276D88AC2C03DDF2004937AD /* MeteoBlueAirQualityViewModel.swift in Sources */,
+				276D88C12C04F77B004937AD /* ClickableTvOsButtonView.swift in Sources */,
+				276D88B82C046A9F004937AD /* MeteoBlueLocation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		276D88A22C03D8F1004937AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+			};
+			name = Debug;
+		};
+		276D88A32C03D8F1004937AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276D88A52C03D8F1004937AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D094C6848F4692054FAF3F /* Pods-tvair.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tvair/Preview Content\"";
+				DEVELOPMENT_TEAM = 7USWZL2D5L;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mikerworks.tvair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		276D88A62C03D8F1004937AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F09D3F8415BFF5F082EE64 /* Pods-tvair.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tvair/Preview Content\"";
+				DEVELOPMENT_TEAM = 7USWZL2D5L;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mikerworks.tvair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276D88912C03D8F0004937AD /* Build configuration list for PBXProject "tvair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276D88A22C03D8F1004937AD /* Debug */,
+				276D88A32C03D8F1004937AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276D88A42C03D8F1004937AD /* Build configuration list for PBXNativeTarget "tvair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276D88A52C03D8F1004937AD /* Debug */,
+				276D88A62C03D8F1004937AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 276D888E2C03D8F0004937AD /* Project object */;
+}
